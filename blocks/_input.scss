@@ -1,0 +1,12 @@
+.input {
+  box-sizing: border-box;
+  width: 225px;
+  height: 35px;
+  border: none;
+  border-radius: 30px;
+  padding-left: 25px;
+
+  &[value="Введите e-mail"] {
+    color: #C4C4C4;
+  }
+}

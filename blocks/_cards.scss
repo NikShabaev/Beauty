@@ -1,0 +1,25 @@
+.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #EFEFEF;
+  padding: 80px 400px 133px;
+
+  @media screen and(max-width: 1919px) {
+    padding: 6% 12%;
+  }
+
+  @media screen and(max-width: 1365px) {
+    padding: 4% 5%;
+  }
+
+  @media screen and(max-width: 1279px) {
+    padding: 2% 2%;
+    text-align: center;
+  }
+
+  &__title {
+    margin: 0 0 38px 0;
+  }
+}

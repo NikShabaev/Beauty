@@ -1,0 +1,57 @@
+.card-contact {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+
+
+  @media screen and(max-width: 1279px) {
+    margin-top: 50px;
+    gap: 5%;
+    min-height: 500px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: max-content;
+    grid-template-rows: max-content;
+  }
+
+  &__container {
+    background-color: #66C05D;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    width: 540px;
+    height: 212px;
+    gap: 10%;
+    padding: 45px 35px;
+
+
+    @media screen and(max-width: 1279px) {
+      &_down {
+        justify-content: center;
+      }
+    }
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+
+  &__subtitle {
+    margin: 5% 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+    &_down {
+      width: 141px;
+      margin: 9% 0;
+    }
+  }
+}
